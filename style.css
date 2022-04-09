@@ -6,6 +6,26 @@
     width: 100%;
 }
 
+.navbar-nav {
+    counter-reset: li;
+}
+
+.navbar-nav li {
+    text-align: center;
+}
+
+.navbar-nav li::after {
+    content: counter(li) "▲";
+    counter-increment: li;
+}
+
 .navbar-bottom-line {
     border: 2px solid black;
+}
+
+.visual {
+    text-align: center;
+    font-weight: 600;
+    background-image: url(https://www.nintendo.co.kr/amiibo/assets/img/common/contents_01_bg.jpg);
+    border-bottom: 1px solid #ddd;
 }
