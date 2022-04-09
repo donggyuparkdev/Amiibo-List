@@ -25,7 +25,7 @@
 
 .visual {
     text-align: center;
-    font-weight: 600;
+    font-weight: 1em;
     background-image: url(https://www.nintendo.co.kr/amiibo/assets/img/common/contents_01_bg.jpg);
     border-bottom: 1px solid #ddd;
 }
