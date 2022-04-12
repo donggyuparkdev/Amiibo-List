@@ -25,7 +25,31 @@
 
 .visual {
     text-align: center;
-    font-weight: 1em;
+    font-weight: 600;
     background-image: url(https://www.nintendo.co.kr/amiibo/assets/img/common/contents_01_bg.jpg);
+    max-height: 850px;
+    height: 100%;
+    width: 100%;
     border-bottom: 1px solid #ddd;
+}
+
+.text-01 {
+    padding-top: 6vw;
+    font-size: 2vw;
+    margin-bottom: 2vw;
+}
+
+.text-02 {
+    margin-top: 3vw;
+    font-size: 3vw;
+}
+
+.visual-logo {
+    max-width: 40%;
+    height: auto;
+}
+
+.visual-img {
+    max-width: 100%;
+    height: auto;
 }
